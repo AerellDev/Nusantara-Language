@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Nusantara",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "${workspaceFolder}/nusantara_language/nusantara.exe ${file}",
+      "cwd": "${workspaceFolder}/src",
+    }
+  ]
+}
